@@ -139,12 +139,12 @@ class SiteNav extends React.Component<SiteNavProps> {
             <li role="menuitem">
               <Link to="/about">About</Link>
             </li>
-            <li role="menuitem">
+            {/* <li role="menuitem">
               <Link to="/tags/getting-started/">Getting Started</Link>
-            </li>
+            </li> */}
           </ul>
         </SiteNavLeft>
-        <SiteNavRight>
+        {/* <SiteNavRight>
           <SocialLinks>
             {config.facebook && (
               <a
@@ -173,7 +173,7 @@ class SiteNav extends React.Component<SiteNavProps> {
             <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
           {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
-        </SiteNavRight>
+        </SiteNavRight> */}
       </nav>
     );
   }
